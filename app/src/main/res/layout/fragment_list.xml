@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    tools:context=".FragmentsBlock.ListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/offon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listabrojeva"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:background="@android:color/transparent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_editetext_bg"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/offon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginLeft="242dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="serif"
+        android:text="BLOCK LIST"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_alignEnd="@+id/switch1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="0dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_add" />
+
+</RelativeLayout>
