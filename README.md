@@ -1,6 +1,6 @@
 
 
-For step by ste tutorial please visit http://www.nikola-breznjak.com/blog/android/make-native-android-app-can-block-phone-calls/
+For step by step tutorial please visit http://www.nikola-breznjak.com/blog/android/make-native-android-app-can-block-phone-calls/
 
 Other useful things used in project:
 
